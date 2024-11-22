@@ -46,51 +46,51 @@
 ## 3. Лог команд
 Перечень использлванных команд:
 
-`  git config --global user.name "4319 Кошев Т.С." `
+`  git config --global user.name "4319 Кошев Т.С." `  — Задаём имя пользователя 
 
-` git config --global user.email "timonk23@yandex.ru"`
+` git config --global user.email "timonk23@yandex.ru"` — Задаём почту
 
-` git clone https://github.com/Jaaames0/LR6.git`
+` git clone https://github.com/Jaaames0/LR6.git` — клонируем репозиторий
 
-` cd LR6`
+` cd LR6` — Переходим в папку с репазиторием
 
-` git pull`
+` git pull` — Подтягиваем изменения
 
-` git log --graph`
+` git log --graph` — Просматриваем истоию операций
 
-` git log`
+` git log` — Смотрим последние действие
 
-` git merge origin/branch1`
+` git merge origin/branch1` — Проводим слияние
 
-` git add mergefile.txt `
+` git add mergefile.txt ` — Решаем конфликт
 
-` git commit -m "Разрешение конфликта"`
+` git commit -m "Разрешение конфликта"` — Создаём коммит и подписываем его
 
-` git commit`
+` git commit` — Новый коммит
 
-` git merge origin/branch1`
+` git merge origin/branch1` — Проводим слияние
 
-` git push origin --delete branch1`
+` git push origin --delete branch1` — удаляем ветку
 
-` git add .`
+` git add .` — Подгружаем изменения
 
-` git commit -m "Изменение 1"`
+` git commit -m "Изменение 1"` — Коммитим изменения
 
-` git add .`
+` git add .` — Подгружаем изменения
 
-` git commit -m "Изменение 2"`
+` git commit -m "Изменение 2"` — Коммитим изменения
 
-` git add .`
+` git add .` — Подгружаем изменения
 
-` git commit -m "Изменение 3"`
+` git commit -m "Изменение 3"` — Коммитим изменения
 
-` git reset --hard HEAD~`
+` git reset --hard HEAD~` — Откатываем последние изменение
 
-` git branch report`
+` git branch report` — Создаём ветку для отчета
 
-` git push --set-upstream origin report`
+` git push --set-upstream origin report` — Добавляем ветку на GitHub
 
-` git log --pretty=format:"%h %ad %an %s" --graph --date=short`
+` git log --pretty=format:"%h %ad %an %s" --graph --date=short` — Смотрим историю операций
 
 ## 4. История операций в форматированном видел
 
